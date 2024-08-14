@@ -272,4 +272,4 @@ src/BookStore.Blazor.Server.Tiered/Logs/*
 # IdentityServer temp files
 tempkey.rsa
 tempkey.jwk
-src/BookStore/BookStore.HttpApi.Host/appsettings.Development.json
+src/BookStore.HttpApi.Host/appsettings.Development.json
