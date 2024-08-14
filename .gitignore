@@ -68,7 +68,6 @@ artifacts/
 *.pidb
 *.svclog
 *.scc
-*.json
 
 # Chutzpah Test files
 _Chutzpah*
@@ -266,6 +265,7 @@ src/BookStore.HttpApi.Host/Logs/*
 src/BookStore.DbMigrator/Logs/*
 src/BookStore.Blazor.Server/Logs/*
 src/BookStore.Blazor.Server.Tiered/Logs/*
+src/BookStore.HttpApi.Host/appsettings.Development.json
 
 # Use abp install-libs to restore.
 **/wwwroot/libs/*
