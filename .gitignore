@@ -274,5 +274,3 @@ src/BookStore.Blazor.Server.Tiered/Logs/*
 tempkey.rsa
 tempkey.jwk
 
-src\BookStore.HttpApi.Host\appsettings.Development.json
-
