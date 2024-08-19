@@ -24,4 +24,8 @@ public class BookAppService :
         UpdatePolicyName = BookStorePermissions.Books.Edit;
         DeletePolicyName = BookStorePermissions.Books.Delete;
     }
+    public void CXX()
+    {
+        
+    }
 }
