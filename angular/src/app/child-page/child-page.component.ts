@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './child-page.component.html',
-  styleUrl: './child-page.component.scss'
+  styleUrl: './child-page.component.scss',
 })
 export class ChildPageComponent {
 
