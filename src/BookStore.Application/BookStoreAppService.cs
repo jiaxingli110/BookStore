@@ -9,6 +9,6 @@ public abstract class BookStoreAppService : ApplicationService
 {
     protected BookStoreAppService()
     {
-        LocalizationResource = typeof(BookStoreResource);
+        LocalizationResource = typeof(BookStoreResource); //
     }
 }
