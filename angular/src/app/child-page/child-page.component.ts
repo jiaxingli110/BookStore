@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-child-page',
@@ -9,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class ChildPageComponent {
 
+  @Input() Name : string
+  ngOnInit(): void {
+      console.log(this.Name);
+  }
 }
