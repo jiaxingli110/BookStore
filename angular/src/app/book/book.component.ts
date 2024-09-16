@@ -86,7 +86,8 @@ export class BookComponent  {
     });
   }
   loadChild()
-  {
+  { 
+    //aaaaaaaaaaaaaaas
     //  this.inputName = '传递给子页面的数据'; 
      this.showChild = true;
      this.container.clear(); // 清除之前加载的组件（如果有）
