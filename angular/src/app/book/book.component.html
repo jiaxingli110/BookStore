@@ -1,7 +1,4 @@
 
-HELLO WORLD
-NNBVN
-AAA
 <div class="card">
   <div class="card-header">
     <div class="row">
@@ -67,9 +64,14 @@ AAA
       </ngx-datatable-column>
     </ngx-datatable>
   </div>
-  <app-child-page></app-child-page>
+  <button (click)="loadChild()">加载子页面</button>
+  <!-- <app-child-page *ngIf="showChild" [Name]="inputName"></app-child-page> -->
+  <ng-template #childContainer></ng-template>
+  <ng-container *ngIf="showChild">
+    <p>条件为 true 时显示的段落 1。</p>
+    <p>条件为 true 时显示的段落 2。</p>
+  </ng-container>
 </div>
-<!-- <app-child-page></app-child-page> -->
 <!-- Add the modal here -->
 <abp-modal [(visible)]="isModalOpen">
   <ng-template #abpHeader>
@@ -121,5 +123,4 @@ AAA
       {{ '::Save' | abpLocalization }}
     </button>
   </ng-template>
-
 </abp-modal>
